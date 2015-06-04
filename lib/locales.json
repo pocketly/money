@@ -1,0 +1,22 @@
+{
+  "en_US": {
+    "comma": ",",
+    "decimal": ".",
+    "symbol": "$",
+    "format": "$0,0.00"
+  },
+
+  "en_GB": {
+    "comma": ",",
+    "decimal": ".",
+    "symbol": "£",
+    "format": "$0,0.00"
+  },
+
+  "fr_FR": {
+    "comma": ".",
+    "decimal": ",",
+    "symbol": "€",
+    "format": "0,0.00$"
+  }
+}

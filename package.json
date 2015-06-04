@@ -1,0 +1,33 @@
+{
+  "name": "@whym/money",
+  "version": "1.0.0",
+  "description": "Currency Localization",
+  "main": "lib/Money.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocketly/money.git"
+  },
+  "keywords": [
+    "Money",
+    "Currency",
+    "Localization",
+    "i18n"
+  ],
+  "author": "Kevin Smithson <ksmithson@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocketly/money/issues"
+  },
+  "homepage": "https://github.com/pocketly/money",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "numeral": "^1.5.3"
+  }
+}
