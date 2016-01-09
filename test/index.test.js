@@ -48,5 +48,20 @@ describe('Money', function() {
       money.parse(',50€').should.equal(.50);
       money.parse('0,05€').should.equal(.05);
     });
+
+    it('should localize USD', function() {
+      Money.localize(10.99, 'USD').should.equal('$10.99');
+      Money.localize(1010.99, 'USD').should.equal('$1,010.99');
+    });
+
+    it('should localize GBP', function() {
+      Money.localize(10.99, 'GBP').should.equal('£10.99');
+      Money.localize(1010.99, 'GBP').should.equal('£1,010.99');
+    });
+
+    it('should localize EUR', function() {
+      Money.localize(10.99, 'EUR').should.equal('€10.99');
+      Money.localize(1010.99, 'EUR').should.equal('€1,010.99');
+    });
   });
 });
