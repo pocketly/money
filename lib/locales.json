@@ -14,9 +14,21 @@
   },
 
   "fr_FR": {
-    "comma": ".",
+    "comma": " ",
     "decimal": ",",
     "symbol": "€",
     "format": "0,0.00$"
+  },
+  "it_IT": {
+    "comma": ".",
+    "decimal": ",",
+    "symbol": "€",
+    "format": "0,0.00 $"
+  },
+  "ca_ES": {
+    "comma": ".",
+    "decimal": ",",
+    "symbol": "€",
+    "format": "0,0.00 $"
   }
 }
