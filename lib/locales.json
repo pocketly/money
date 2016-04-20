@@ -30,5 +30,23 @@
     "decimal": ",",
     "symbol": "€",
     "format": "0,0.00 $"
+  },
+  "nl_NL": {
+    "comma": ".",
+    "decimal": ",",
+    "symbol": "€",
+    "format": "$ 0,0.00"
+  },
+  "en_IE": {
+    "comma": ",",
+    "decimal": ".",
+    "symbol": "€",
+    "format": "$0,0.00"
+  },
+  "cs": {
+    "comma": " ",
+    "decimal": ",",
+    "symbol": "€",
+    "format": "0,0.00 $"
   }
 }
